@@ -1,3 +1,6 @@
 /data/unsafe_dependency_updates
 /data/dep-contri_congruence
+/node_modules
 .DS_Store
+LIBRARIES_API_KEY.txt
+o.txt

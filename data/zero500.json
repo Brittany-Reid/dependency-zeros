@@ -1,0 +1,7 @@
+[
+ "typescript",
+ "eslint-plugin-react-hooks",
+ "moment",
+ "prettier",
+ "@types/lodash"
+]

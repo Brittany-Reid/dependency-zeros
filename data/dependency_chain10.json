@@ -1,0 +1,1106 @@
+[
+ "typescript",
+ {
+  "eslint": [
+   {
+    "@eslint-community/eslint-utils": [
+     "eslint-visitor-keys"
+    ]
+   },
+   "@eslint-community/regexpp",
+   {
+    "@eslint/eslintrc": [
+     {
+      "ajv": [
+       "fast-deep-equal",
+       "json-schema-traverse",
+       "require-from-string",
+       {
+        "uri-js": [
+         "punycode"
+        ]
+       }
+      ]
+     },
+     {
+      "debug": [
+       "ms"
+      ]
+     },
+     {
+      "espree": [
+       "acorn",
+       "acorn-jsx",
+       "eslint-visitor-keys"
+      ]
+     },
+     {
+      "globals": [
+       "type-fest"
+      ]
+     },
+     "ignore",
+     {
+      "import-fresh": [
+       {
+        "parent-module": [
+         "callsites"
+        ]
+       },
+       "resolve-from"
+      ]
+     },
+     {
+      "js-yaml": [
+       "argparse"
+      ]
+     },
+     {
+      "minimatch": [
+       {
+        "brace-expansion": [
+         "balanced-match"
+        ]
+       }
+      ]
+     },
+     "strip-json-comments"
+    ]
+   },
+   "@eslint/js",
+   {
+    "@humanwhocodes/config-array": [
+     "@humanwhocodes/object-schema",
+     {
+      "debug": [
+       "ms"
+      ]
+     },
+     {
+      "minimatch": [
+       {
+        "brace-expansion": [
+         "balanced-match"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "@humanwhocodes/module-importer",
+   {
+    "@nodelib/fs.walk": [
+     {
+      "@nodelib/fs.scandir": [
+       "@nodelib/fs.stat",
+       {
+        "run-parallel": [
+         "queue-microtask"
+        ]
+       }
+      ]
+     },
+     {
+      "fastq": [
+       "reusify"
+      ]
+     }
+    ]
+   },
+   "@ungap/structured-clone",
+   {
+    "ajv": [
+     "fast-deep-equal",
+     "json-schema-traverse",
+     "require-from-string",
+     {
+      "uri-js": [
+       "punycode"
+      ]
+     }
+    ]
+   },
+   "chalk",
+   {
+    "cross-spawn": [
+     "path-key",
+     {
+      "shebang-command": [
+       "shebang-regex"
+      ]
+     },
+     {
+      "which": [
+       "isexe"
+      ]
+     }
+    ]
+   },
+   {
+    "debug": [
+     "ms"
+    ]
+   },
+   {
+    "doctrine": [
+     "esutils"
+    ]
+   },
+   "escape-string-regexp",
+   {
+    "eslint-scope": [
+     {
+      "esrecurse": [
+       "estraverse"
+      ]
+     },
+     "estraverse"
+    ]
+   },
+   "eslint-visitor-keys",
+   {
+    "espree": [
+     "acorn",
+     "acorn-jsx",
+     "eslint-visitor-keys"
+    ]
+   },
+   {
+    "esquery": [
+     "estraverse"
+    ]
+   },
+   "esutils",
+   "fast-deep-equal",
+   {
+    "file-entry-cache": [
+     {
+      "flat-cache": [
+       "flatted",
+       {
+        "keyv": [
+         "json-buffer"
+        ]
+       },
+       {
+        "rimraf": [
+         {
+          "glob": [
+           {
+            "foreground-child": [
+             {
+              "cross-spawn": [
+               "path-key",
+               {
+                "shebang-command": [
+                 "shebang-regex"
+                ]
+               },
+               {
+                "which": [
+                 "isexe"
+                ]
+               }
+              ]
+             },
+             "signal-exit"
+            ]
+           },
+           {
+            "jackspeak": [
+             {
+              "@isaacs/cliui": [
+               {
+                "string-width": [
+                 "emoji-regex",
+                 "get-east-asian-width",
+                 {
+                  "strip-ansi": [
+                   "ansi-regex"
+                  ]
+                 }
+                ]
+               },
+               "string-width-cjs",
+               {
+                "strip-ansi": [
+                 "ansi-regex"
+                ]
+               },
+               "strip-ansi-cjs",
+               {
+                "wrap-ansi": [
+                 "ansi-styles",
+                 {
+                  "string-width": [
+                   "emoji-regex",
+                   "get-east-asian-width",
+                   {
+                    "strip-ansi": [
+                     "ansi-regex"
+                    ]
+                   }
+                  ]
+                 },
+                 {
+                  "strip-ansi": [
+                   "ansi-regex"
+                  ]
+                 }
+                ]
+               },
+               "wrap-ansi-cjs"
+              ]
+             }
+            ]
+           },
+           {
+            "minimatch": [
+             {
+              "brace-expansion": [
+               "balanced-match"
+              ]
+             }
+            ]
+           },
+           "minipass",
+           {
+            "path-scurry": [
+             "lru-cache",
+             "minipass"
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "find-up": [
+     {
+      "locate-path": [
+       {
+        "p-locate": [
+         {
+          "p-limit": [
+           "yocto-queue"
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     "path-exists",
+     "unicorn-magic"
+    ]
+   },
+   {
+    "glob-parent": [
+     {
+      "is-glob": [
+       "is-extglob"
+      ]
+     }
+    ]
+   },
+   {
+    "globals": [
+     "type-fest"
+    ]
+   },
+   "graphemer",
+   "ignore",
+   "imurmurhash",
+   {
+    "is-glob": [
+     "is-extglob"
+    ]
+   },
+   "is-path-inside",
+   {
+    "js-yaml": [
+     "argparse"
+    ]
+   },
+   "json-stable-stringify-without-jsonify",
+   {
+    "levn": [
+     "prelude-ls",
+     {
+      "type-check": [
+       "prelude-ls"
+      ]
+     }
+    ]
+   },
+   "lodash.merge",
+   {
+    "minimatch": [
+     {
+      "brace-expansion": [
+       "balanced-match"
+      ]
+     }
+    ]
+   },
+   "natural-compare",
+   {
+    "optionator": [
+     "prelude-ls",
+     "deep-is",
+     "@aashutoshrathi/word-wrap",
+     {
+      "type-check": [
+       "prelude-ls"
+      ]
+     },
+     {
+      "levn": [
+       "prelude-ls",
+       {
+        "type-check": [
+         "prelude-ls"
+        ]
+       }
+      ]
+     },
+     {
+      "fast-levenshtein": [
+       "fastest-levenshtein"
+      ]
+     }
+    ]
+   },
+   {
+    "strip-ansi": [
+     "ansi-regex"
+    ]
+   },
+   "text-table"
+  ]
+ },
+ "eslint-plugin-react-hooks",
+ {
+  "axios": [
+   "follow-redirects",
+   {
+    "form-data": [
+     "asynckit",
+     {
+      "combined-stream": [
+       "delayed-stream"
+      ]
+     },
+     {
+      "mime-types": [
+       "mime-db"
+      ]
+     }
+    ]
+   },
+   "proxy-from-env"
+  ]
+ },
+ {
+  "webpack": [
+   {
+    "@types/eslint-scope": [
+     {
+      "@types/eslint": [
+       "@types/estree",
+       "@types/json-schema"
+      ]
+     },
+     "@types/estree"
+    ]
+   },
+   "@types/estree",
+   {
+    "@webassemblyjs/ast": [
+     {
+      "@webassemblyjs/helper-numbers": [
+       "@webassemblyjs/floating-point-hex-parser",
+       "@webassemblyjs/helper-api-error",
+       "@xtuc/long"
+      ]
+     },
+     "@webassemblyjs/helper-wasm-bytecode"
+    ]
+   },
+   {
+    "@webassemblyjs/wasm-edit": [
+     {
+      "@webassemblyjs/ast": [
+       {
+        "@webassemblyjs/helper-numbers": [
+         "@webassemblyjs/floating-point-hex-parser",
+         "@webassemblyjs/helper-api-error",
+         "@xtuc/long"
+        ]
+       },
+       "@webassemblyjs/helper-wasm-bytecode"
+      ]
+     },
+     "@webassemblyjs/helper-buffer",
+     "@webassemblyjs/helper-wasm-bytecode",
+     {
+      "@webassemblyjs/helper-wasm-section": [
+       {
+        "@webassemblyjs/ast": [
+         {
+          "@webassemblyjs/helper-numbers": [
+           "@webassemblyjs/floating-point-hex-parser",
+           "@webassemblyjs/helper-api-error",
+           "@xtuc/long"
+          ]
+         },
+         "@webassemblyjs/helper-wasm-bytecode"
+        ]
+       },
+       "@webassemblyjs/helper-buffer",
+       "@webassemblyjs/helper-wasm-bytecode",
+       {
+        "@webassemblyjs/wasm-gen": [
+         {
+          "@webassemblyjs/ast": [
+           {
+            "@webassemblyjs/helper-numbers": [
+             "@webassemblyjs/floating-point-hex-parser",
+             "@webassemblyjs/helper-api-error",
+             "@xtuc/long"
+            ]
+           },
+           "@webassemblyjs/helper-wasm-bytecode"
+          ]
+         },
+         "@webassemblyjs/helper-wasm-bytecode",
+         {
+          "@webassemblyjs/ieee754": [
+           "@xtuc/ieee754"
+          ]
+         },
+         {
+          "@webassemblyjs/leb128": [
+           "@xtuc/long"
+          ]
+         },
+         "@webassemblyjs/utf8"
+        ]
+       }
+      ]
+     },
+     {
+      "@webassemblyjs/wasm-gen": [
+       {
+        "@webassemblyjs/ast": [
+         {
+          "@webassemblyjs/helper-numbers": [
+           "@webassemblyjs/floating-point-hex-parser",
+           "@webassemblyjs/helper-api-error",
+           "@xtuc/long"
+          ]
+         },
+         "@webassemblyjs/helper-wasm-bytecode"
+        ]
+       },
+       "@webassemblyjs/helper-wasm-bytecode",
+       {
+        "@webassemblyjs/ieee754": [
+         "@xtuc/ieee754"
+        ]
+       },
+       {
+        "@webassemblyjs/leb128": [
+         "@xtuc/long"
+        ]
+       },
+       "@webassemblyjs/utf8"
+      ]
+     },
+     {
+      "@webassemblyjs/wasm-opt": [
+       {
+        "@webassemblyjs/ast": [
+         {
+          "@webassemblyjs/helper-numbers": [
+           "@webassemblyjs/floating-point-hex-parser",
+           "@webassemblyjs/helper-api-error",
+           "@xtuc/long"
+          ]
+         },
+         "@webassemblyjs/helper-wasm-bytecode"
+        ]
+       },
+       "@webassemblyjs/helper-buffer",
+       {
+        "@webassemblyjs/wasm-gen": [
+         {
+          "@webassemblyjs/ast": [
+           {
+            "@webassemblyjs/helper-numbers": [
+             "@webassemblyjs/floating-point-hex-parser",
+             "@webassemblyjs/helper-api-error",
+             "@xtuc/long"
+            ]
+           },
+           "@webassemblyjs/helper-wasm-bytecode"
+          ]
+         },
+         "@webassemblyjs/helper-wasm-bytecode",
+         {
+          "@webassemblyjs/ieee754": [
+           "@xtuc/ieee754"
+          ]
+         },
+         {
+          "@webassemblyjs/leb128": [
+           "@xtuc/long"
+          ]
+         },
+         "@webassemblyjs/utf8"
+        ]
+       },
+       {
+        "@webassemblyjs/wasm-parser": [
+         {
+          "@webassemblyjs/ast": [
+           {
+            "@webassemblyjs/helper-numbers": [
+             "@webassemblyjs/floating-point-hex-parser",
+             "@webassemblyjs/helper-api-error",
+             "@xtuc/long"
+            ]
+           },
+           "@webassemblyjs/helper-wasm-bytecode"
+          ]
+         },
+         "@webassemblyjs/helper-api-error",
+         "@webassemblyjs/helper-wasm-bytecode",
+         {
+          "@webassemblyjs/ieee754": [
+           "@xtuc/ieee754"
+          ]
+         },
+         {
+          "@webassemblyjs/leb128": [
+           "@xtuc/long"
+          ]
+         },
+         "@webassemblyjs/utf8"
+        ]
+       }
+      ]
+     },
+     {
+      "@webassemblyjs/wasm-parser": [
+       {
+        "@webassemblyjs/ast": [
+         {
+          "@webassemblyjs/helper-numbers": [
+           "@webassemblyjs/floating-point-hex-parser",
+           "@webassemblyjs/helper-api-error",
+           "@xtuc/long"
+          ]
+         },
+         "@webassemblyjs/helper-wasm-bytecode"
+        ]
+       },
+       "@webassemblyjs/helper-api-error",
+       "@webassemblyjs/helper-wasm-bytecode",
+       {
+        "@webassemblyjs/ieee754": [
+         "@xtuc/ieee754"
+        ]
+       },
+       {
+        "@webassemblyjs/leb128": [
+         "@xtuc/long"
+        ]
+       },
+       "@webassemblyjs/utf8"
+      ]
+     },
+     {
+      "@webassemblyjs/wast-printer": [
+       {
+        "@webassemblyjs/ast": [
+         {
+          "@webassemblyjs/helper-numbers": [
+           "@webassemblyjs/floating-point-hex-parser",
+           "@webassemblyjs/helper-api-error",
+           "@xtuc/long"
+          ]
+         },
+         "@webassemblyjs/helper-wasm-bytecode"
+        ]
+       },
+       "@xtuc/long"
+      ]
+     }
+    ]
+   },
+   {
+    "@webassemblyjs/wasm-parser": [
+     {
+      "@webassemblyjs/ast": [
+       {
+        "@webassemblyjs/helper-numbers": [
+         "@webassemblyjs/floating-point-hex-parser",
+         "@webassemblyjs/helper-api-error",
+         "@xtuc/long"
+        ]
+       },
+       "@webassemblyjs/helper-wasm-bytecode"
+      ]
+     },
+     "@webassemblyjs/helper-api-error",
+     "@webassemblyjs/helper-wasm-bytecode",
+     {
+      "@webassemblyjs/ieee754": [
+       "@xtuc/ieee754"
+      ]
+     },
+     {
+      "@webassemblyjs/leb128": [
+       "@xtuc/long"
+      ]
+     },
+     "@webassemblyjs/utf8"
+    ]
+   },
+   "acorn",
+   "acorn-import-assertions",
+   {
+    "browserslist": [
+     "caniuse-lite",
+     "electron-to-chromium",
+     "node-releases",
+     {
+      "update-browserslist-db": [
+       "escalade",
+       "picocolors"
+      ]
+     }
+    ]
+   },
+   "chrome-trace-event",
+   {
+    "enhanced-resolve": [
+     "graceful-fs",
+     "tapable"
+    ]
+   },
+   "es-module-lexer",
+   {
+    "eslint-scope": [
+     {
+      "esrecurse": [
+       "estraverse"
+      ]
+     },
+     "estraverse"
+    ]
+   },
+   "events",
+   "glob-to-regexp",
+   "graceful-fs",
+   "json-parse-even-better-errors",
+   "loader-runner",
+   {
+    "mime-types": [
+     "mime-db"
+    ]
+   },
+   "neo-async",
+   {
+    "schema-utils": [
+     "@types/json-schema",
+     {
+      "ajv": [
+       "fast-deep-equal",
+       "json-schema-traverse",
+       "require-from-string",
+       {
+        "uri-js": [
+         "punycode"
+        ]
+       }
+      ]
+     },
+     {
+      "ajv-formats": [
+       {
+        "ajv": [
+         "fast-deep-equal",
+         "json-schema-traverse",
+         "require-from-string",
+         {
+          "uri-js": [
+           "punycode"
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "ajv-keywords": [
+       "fast-deep-equal"
+      ]
+     }
+    ]
+   },
+   "tapable",
+   {
+    "terser-webpack-plugin": [
+     {
+      "@jridgewell/trace-mapping": [
+       "@jridgewell/resolve-uri",
+       "@jridgewell/sourcemap-codec"
+      ]
+     },
+     {
+      "jest-worker": [
+       {
+        "@types/node": [
+         "undici-types"
+        ]
+       },
+       {
+        "jest-util": [
+         {
+          "@jest/types": [
+           {
+            "@jest/schemas": [
+             "@sinclair/typebox"
+            ]
+           },
+           "@types/istanbul-lib-coverage",
+           {
+            "@types/istanbul-reports": [
+             {
+              "@types/istanbul-lib-report": [
+               "@types/istanbul-lib-coverage"
+              ]
+             }
+            ]
+           },
+           {
+            "@types/node": [
+             "undici-types"
+            ]
+           },
+           {
+            "@types/yargs": [
+             "@types/yargs-parser"
+            ]
+           },
+           "chalk"
+          ]
+         },
+         {
+          "@types/node": [
+           "undici-types"
+          ]
+         },
+         "chalk",
+         "ci-info",
+         "graceful-fs",
+         "picomatch"
+        ]
+       },
+       "merge-stream",
+       "supports-color"
+      ]
+     },
+     {
+      "schema-utils": [
+       "@types/json-schema",
+       {
+        "ajv": [
+         "fast-deep-equal",
+         "json-schema-traverse",
+         "require-from-string",
+         {
+          "uri-js": [
+           "punycode"
+          ]
+         }
+        ]
+       },
+       {
+        "ajv-formats": [
+         {
+          "ajv": [
+           "fast-deep-equal",
+           "json-schema-traverse",
+           "require-from-string",
+           {
+            "uri-js": [
+             "punycode"
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "ajv-keywords": [
+         "fast-deep-equal"
+        ]
+       }
+      ]
+     },
+     {
+      "serialize-javascript": [
+       {
+        "randombytes": [
+         "safe-buffer"
+        ]
+       }
+      ]
+     },
+     {
+      "terser": [
+       {
+        "@jridgewell/source-map": [
+         {
+          "@jridgewell/gen-mapping": [
+           "@jridgewell/set-array",
+           "@jridgewell/sourcemap-codec",
+           {
+            "@jridgewell/trace-mapping": [
+             "@jridgewell/resolve-uri",
+             "@jridgewell/sourcemap-codec"
+            ]
+           }
+          ]
+         },
+         {
+          "@jridgewell/trace-mapping": [
+           "@jridgewell/resolve-uri",
+           "@jridgewell/sourcemap-codec"
+          ]
+         }
+        ]
+       },
+       "acorn",
+       "commander",
+       {
+        "source-map-support": [
+         "buffer-from",
+         "source-map"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "watchpack": [
+     "glob-to-regexp",
+     "graceful-fs"
+    ]
+   },
+   "webpack-sources"
+  ]
+ },
+ "moment",
+ "prettier",
+ {
+  "@types/node": [
+   "undici-types"
+  ]
+ },
+ "@types/lodash",
+ {
+  "@types/jest": [
+   {
+    "expect": [
+     {
+      "@jest/expect-utils": [
+       "jest-get-type"
+      ]
+     },
+     "jest-get-type",
+     {
+      "jest-matcher-utils": [
+       "chalk",
+       {
+        "jest-diff": [
+         "chalk",
+         "diff-sequences",
+         "jest-get-type",
+         {
+          "pretty-format": [
+           {
+            "@jest/schemas": [
+             "@sinclair/typebox"
+            ]
+           },
+           "ansi-styles",
+           "react-is"
+          ]
+         }
+        ]
+       },
+       "jest-get-type",
+       {
+        "pretty-format": [
+         {
+          "@jest/schemas": [
+           "@sinclair/typebox"
+          ]
+         },
+         "ansi-styles",
+         "react-is"
+        ]
+       }
+      ]
+     },
+     {
+      "jest-message-util": [
+       {
+        "@babel/code-frame": [
+         {
+          "@babel/highlight": [
+           "@babel/helper-validator-identifier",
+           "chalk",
+           "js-tokens"
+          ]
+         },
+         "chalk"
+        ]
+       },
+       {
+        "@jest/types": [
+         {
+          "@jest/schemas": [
+           "@sinclair/typebox"
+          ]
+         },
+         "@types/istanbul-lib-coverage",
+         {
+          "@types/istanbul-reports": [
+           {
+            "@types/istanbul-lib-report": [
+             "@types/istanbul-lib-coverage"
+            ]
+           }
+          ]
+         },
+         {
+          "@types/node": [
+           "undici-types"
+          ]
+         },
+         {
+          "@types/yargs": [
+           "@types/yargs-parser"
+          ]
+         },
+         "chalk"
+        ]
+       },
+       "@types/stack-utils",
+       "chalk",
+       "graceful-fs",
+       {
+        "micromatch": [
+         {
+          "braces": [
+           {
+            "fill-range": [
+             {
+              "to-regex-range": [
+               "is-number"
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         "picomatch"
+        ]
+       },
+       {
+        "pretty-format": [
+         {
+          "@jest/schemas": [
+           "@sinclair/typebox"
+          ]
+         },
+         "ansi-styles",
+         "react-is"
+        ]
+       },
+       "slash",
+       {
+        "stack-utils": [
+         "escape-string-regexp"
+        ]
+       }
+      ]
+     },
+     {
+      "jest-util": [
+       {
+        "@jest/types": [
+         {
+          "@jest/schemas": [
+           "@sinclair/typebox"
+          ]
+         },
+         "@types/istanbul-lib-coverage",
+         {
+          "@types/istanbul-reports": [
+           {
+            "@types/istanbul-lib-report": [
+             "@types/istanbul-lib-coverage"
+            ]
+           }
+          ]
+         },
+         {
+          "@types/node": [
+           "undici-types"
+          ]
+         },
+         {
+          "@types/yargs": [
+           "@types/yargs-parser"
+          ]
+         },
+         "chalk"
+        ]
+       },
+       {
+        "@types/node": [
+         "undici-types"
+        ]
+       },
+       "chalk",
+       "ci-info",
+       "graceful-fs",
+       "picomatch"
+      ]
+     }
+    ]
+   },
+   {
+    "pretty-format": [
+     {
+      "@jest/schemas": [
+       "@sinclair/typebox"
+      ]
+     },
+     "ansi-styles",
+     "react-is"
+    ]
+   }
+  ]
+ }
+]
