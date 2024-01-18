@@ -915,7 +915,6 @@
    "undici-types"
   ]
  },
- "@types/lodash",
  {
   "@types/jest": [
    {
@@ -1102,5 +1101,6 @@
     ]
    }
   ]
- }
+ },
+ "@types/lodash"
 ]

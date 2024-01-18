@@ -14,7 +14,7 @@ var dependency_chain_path = "data/dependency_chain.json";
 
 var dependency_chain = [];
 var package_cache = {};
-var chain_cache = {};
+var chain_cache = {}; //caching the chain speeds this up considerably
 var parents = [];
 
 // create interface
@@ -114,7 +114,11 @@ async function buildDependencyChain(limit){
 }
 
 async function getDependencyChain(name){
-  if(name in chain_cache) return chain_cache[name];
+  if(name in chain_cache){
+    var parentChain = {}
+    parentChain[name] = chain_cache[name];
+    return parentChain;
+  }
   //track depth and parents
   parents.push(name);
   var dependencies = await getDependencies(name);
@@ -146,6 +150,11 @@ async function getDependencies(name){
   if(name in package_cache) return package_cache[name];
   await delay(1000);
   var response = await requestNPM(formatName(name))
+  //package deleted?
+  if(!response){
+    console.log(name)
+    return [];
+  }
   var latest = response['data']['dist-tags']['latest'];
   var dependencies = response['data']['versions'][latest]['dependencies']
   if(!dependencies) return [];
@@ -165,7 +174,7 @@ async function getDependencies(name){
 async function zerosHistory(){
   var zeroRegistry = 'data/registry_entries.json';
   var zeroRegistryData = [];
-  var zeros = JSON.parse(fs.readFileSync('data/zero500.json'));
+  var zeros = JSON.parse(fs.readFileSync('data/zeroOnChain100.json'));
   for(var p of zeros){
     var response = await requestNPM(formatName(p))
     var data = response['data'];
@@ -176,6 +185,6 @@ async function zerosHistory(){
 
 // getMostDependedUpon(500)
 
-buildDependencyChain(10)
+buildDependencyChain(500)
 
 // zerosHistory()
