@@ -11,7 +11,20 @@ The top ten dependencies, mined from librairies.io
 
 ### `dependency_chain10.json`
 
-The dependency chain, mined from the NPM registry, for the top ten libraires.
+The dependency chain, mined from the NPM registry, for the top ten libraires. The data is structured as follows:
+
+```json
+[
+    'root package with no deps',
+    {
+        'root package with deps: [
+            'dep with no deps',
+        ]
+    }
+]
+```
+
+Be aware that each item in a list can either be a `string` or `object` representing a package.
 
 ### `registry_entries.json`
 
