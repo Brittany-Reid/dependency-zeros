@@ -26,6 +26,10 @@ The dependency chain, mined from the NPM registry, for the top ten libraires. Th
 
 Be aware that each item in a list can either be a `string` or `object` representing a package.
 
+### `zero_on_chain10.json`
+
+List of packages within the dependency chain that have no dependencies, for the top ten libraries.
+
 ### `registry_entries.json`
 
 The full registry entries for analysed packages.

@@ -7,7 +7,7 @@ const KEY_PART = "api_key=" + API_KEY;
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
 
-var most_depended_path = "data/most_depended_upon500.json"
+var most_depended_path = "data/most_depended_upon100.json"
 var most_depended = fs.existsSync(most_depended_path) ? JSON.parse(fs.readFileSync(most_depended_path, {encoding:'utf-8'})) : [];
 
 var dependency_chain_path = "data/dependency_chain.json";
@@ -171,20 +171,22 @@ async function getDependencies(name){
 }
 
 /**Get the full version history for a subset of our dataset */
-async function zerosHistory(){
+async function zerosHistory(num){
+  var sep = "";
   var zeroRegistry = 'data/registry_entries.json';
-  var zeroRegistryData = [];
-  var zeros = JSON.parse(fs.readFileSync('data/zeroOnChain100.json'));
+  fs.writeFileSync(zeroRegistry, "[")
+  var zeros = JSON.parse(fs.readFileSync('data/zero_on_chain'+num+'.json'));
   for(var p of zeros){
     var response = await requestNPM(formatName(p))
     var data = response['data'];
-    zeroRegistryData.push(data)
+    fs.appendFileSync(zeroRegistry, sep + JSON.stringify(data))
+    sep = ","
   }
-  fs.writeFileSync(zeroRegistry, JSON.stringify(zeroRegistryData))
+  fs.appendFileSync(zeroRegistry, "]")
 }
 
 // getMostDependedUpon(500)
 
-buildDependencyChain(500)
+// buildDependencyChain(10)
 
-// zerosHistory()
+zerosHistory(100)
